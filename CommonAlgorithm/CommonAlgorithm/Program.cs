@@ -11,7 +11,7 @@ namespace CommonAlgorithm
             //new Solution().IsAnagram("anagram", "nagaram");
             //var ret = new Solution().IsAnagram("ab", "a");
             //var ret = new Solution().IsAnagram("aacc", "ccac");
-            var ret = new Solution().IsValid("}");
+            var ret = new CommonSolution().IsValid("}");
             if (ret)
             {
                 Console.WriteLine("True");

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CommonAlgorithm
 {
-    public class Solution
+    public class CommonSolution
     {
         #region 242
         /// <summary>
@@ -125,7 +125,7 @@ namespace CommonAlgorithm
         {
             //O(n^2)的做法就是扫描比较
             //双端队列
-
+            throw new Exception();
         }
 
 
@@ -133,11 +133,75 @@ namespace CommonAlgorithm
 
         #region 230 二叉搜索树中第K小的元素
 
+        /// <summary>
+        /// root = [3,1,4,null,2], k = 1  输出1
+        /// root = [5,3,6,2,4,null,null,1], k = 3 输出3
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
         public int KthSmallest(TreeNode root, int k)
         {
-
+            throw new Exception();
         }
 
+
+        #endregion
+
+        #region 347 前 K 个高频元素
+
+        ///题目中有”前 k个“这样的字眼，应该很自然地联想到优先队列
+        ///统计词频的最佳数据结构就是哈希表（Hash Map），利用一个哈希表，就能快速地知道每个单词出现的次数。
+        ///知道词频后构建优先队列
+        public IList<int> TopKFrequent(int[] nums, int k)
+        {
+
+
+
+            throw new Exception();
+        }
+        #endregion
+
+
+        #region 785 判断二分图
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <returns></returns>
+        public bool IsBipartite(int[][] graph)
+        {
+            throw new Exception();
+        }
+
+        #endregion
+
+        #region 212 单词搜索 II
+
+        public IList<string> FindWords(char[][] board, string[] words)
+        {
+            throw new Exception();
+        }
+
+        #endregion
+
+        #region 315 计算右侧小于当前元素的个数
+
+        /// <summary>
+        /// 线段树
+        /// 示例输入：[5,2,6,1]输出：[2,1,1,0]
+        /// 解释5的右侧有2个更小的元素（2和1）
+        /// 2的右侧仅有1个更小的元素（1）
+        /// 6 的右侧有 1 个更小的元素（1）
+        /// 1 的右侧有 0 个更小的元素
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public IList<int> CountSmaller(int[] nums)
+        {
+            throw new Exception();
+        }
 
         #endregion
     }
