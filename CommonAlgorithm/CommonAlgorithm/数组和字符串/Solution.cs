@@ -113,10 +113,31 @@ namespace CommonAlgorithm
         #endregion
 
         #region 739 每日温度
-        public int[] DailyTemperatures(int[] T)
+        //public int[] DailyTemperatures(int[] T)
+        //{
+
+        //}
+
+        #endregion
+
+        #region 239 滑动窗口最大值
+        public int[] MaxSlidingWindow(int[] nums, int k)
+        {
+            //O(n^2)的做法就是扫描比较
+            //双端队列
+
+        }
+
+
+        #endregion
+
+        #region 230 二叉搜索树中第K小的元素
+
+        public int KthSmallest(TreeNode root, int k)
         {
 
         }
+
 
         #endregion
     }
